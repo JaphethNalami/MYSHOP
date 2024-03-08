@@ -65,7 +65,7 @@
         android:inputType="phone"
         android:background="@drawable/edittext_design"
         android:layout_gravity="center"
-        android:drawableLeft="@drawable/mail" />
+        android:drawableLeft="@drawable/call" />
 
     <EditText
         android:id="@+id/email"
