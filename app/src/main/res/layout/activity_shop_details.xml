@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Shop_details">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/piechart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Fill in the shop details\nto complete setup."
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Bussiness Name"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/buttoncolour" />
+
+    <EditText
+        android:id="@+id/shop_name"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="ie..STAKEHOLDER"
+        android:textColorHint="@color/black"
+        android:paddingStart="12dp"
+        android:textSize="17sp"
+        android:textAllCaps="true"
+        android:inputType="text"
+        android:background="@drawable/edittext_design"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:text="Shop Address"
+        android:textSize="17sp"
+        android:textColor="@color/buttoncolour" />
+
+    <EditText
+        android:id="@+id/shop_address"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="ie..BOMAS"
+        android:textAllCaps="true"
+        android:textColorHint="@color/black"
+        android:paddingStart="15dp"
+        android:textSize="17sp"
+        android:inputType="text"
+        android:background="@drawable/edittext_design"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Shop Phone Number"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/buttoncolour" />
+
+    <EditText
+        android:id="@+id/shop_phone"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="ie..+254712345678"
+        android:textColorHint="@color/black"
+        android:paddingStart="10dp"
+        android:textSize="17sp"
+        android:inputType="phone"
+        android:background="@drawable/edittext_design"
+        android:layout_gravity="center"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:text="Business type"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/buttoncolour" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="15dp"
+        android:textSize="17sp"
+        android:background="@drawable/edittext_design"
+        android:id="@+id/txtBusiness_type"
+        />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/button_design"
+        android:text="Finish"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

@@ -31,10 +31,12 @@ public class Sign_up extends AppCompatActivity {
 
         //setOnClickListener
         sign_up.setOnClickListener(view -> {
-            // do something
+            // move to shop details activity
+            startActivity(new Intent(Sign_up.this, Shop_details.class));
         });
         google.setOnClickListener(view -> {
-            // do something
+            // move to shop details activity
+            startActivity(new Intent(Sign_up.this, Shop_details.class));
         });
         sign_in.setOnClickListener(view -> {
             // move to sign in activity
